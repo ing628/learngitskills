@@ -348,11 +348,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="03euvOwXVPt6zQrmq0_L-124" parent="03euvOwXVPt6zQrmq0_L-121" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
-          <mxGeometry height="38" width="83" y="14" as="geometry" />
+          <mxGeometry height="37" width="83" y="14" as="geometry" />
         </mxCell>
         <mxCell id="03euvOwXVPt6zQrmq0_L-125" parent="03euvOwXVPt6zQrmq0_L-124" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="维护空间资源" vertex="1">
-          <mxGeometry height="38" width="83" as="geometry">
-            <mxRectangle height="38" width="83" as="alternateBounds" />
+          <mxGeometry height="37" width="83" as="geometry">
+            <mxRectangle height="37" width="83" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="03euvOwXVPt6zQrmq0_L-128" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="03euvOwXVPt6zQrmq0_L-49" value="">
