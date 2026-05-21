@@ -1,9 +1,152 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="vI9Sa71DtbXqG241ujqs">
-    <mxGraphModel>
+    <mxGraphModel dx="1226" dy="1658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="开始" vertex="1">
+          <mxGeometry height="31" width="70" x="86" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-36" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="TaZQv7JUgFFaDRqkGOOD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-2" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="输入预约时间与偏好" vertex="1">
+          <mxGeometry height="45" width="157" x="38" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-39" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="TaZQv7JUgFFaDRqkGOOD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="读取空间资源数据" vertex="1">
+          <mxGeometry height="30" width="116" x="-140" y="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="查询目标时段预约状态" vertex="1">
+          <mxGeometry height="30" width="128" x="-146" y="111" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="过滤不可用座位和冲突座位" vertex="1">
+          <mxGeometry height="30" width="157" x="-160.5" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-42" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="TaZQv7JUgFFaDRqkGOOD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-45" connectable="0" parent="TaZQv7JUgFFaDRqkGOOD-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.3377" y="3" as="geometry">
+            <mxPoint x="-6" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-43" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="TaZQv7JUgFFaDRqkGOOD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-44" connectable="0" parent="TaZQv7JUgFFaDRqkGOOD-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.1795" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="存在可用座位？" vertex="1">
+          <mxGeometry height="56" width="111" x="45" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-61" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="TaZQv7JUgFFaDRqkGOOD-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="266" y="236" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="返回无可用座位提示&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; white-space: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BabsoluteArcSize%3D1%3BarcSize%3D14%3BstrokeWidth%3D2%3B%22%20value%3D%22%E8%AF%BB%E5%8F%96%E7%A9%BA%E9%97%B4%E8%B5%84%E6%BA%90%E6%95%B0%E6%8D%AE%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2230%22%20width%3D%22116%22%20x%3D%2256%22%20y%3D%22126%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="116" x="208" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-46" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="TaZQv7JUgFFaDRqkGOOD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="计算自习室空闲率" vertex="1">
+          <mxGeometry height="30" width="116" x="-140" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="分析座位标签与环境因素" vertex="1">
+          <mxGeometry height="30" width="140" x="-152" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="计算推荐评分" vertex="1">
+          <mxGeometry height="30" width="87" x="-125.5" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-11" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="存在风险因素？" vertex="1">
+          <mxGeometry height="56" width="111" x="2" y="323" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-57" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="TaZQv7JUgFFaDRqkGOOD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="生成不推荐原因" vertex="1">
+          <mxGeometry height="30" width="116" x="124" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-56" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="TaZQv7JUgFFaDRqkGOOD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="生成推荐理由" vertex="1">
+          <mxGeometry height="30" width="89" x="124" y="293" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-58" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="TaZQv7JUgFFaDRqkGOOD-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="生成自习室推荐列表" vertex="1">
+          <mxGeometry height="30" width="116" x="259" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-59" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="TaZQv7JUgFFaDRqkGOOD-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="生成2D座位地图状态" vertex="1">
+          <mxGeometry height="30" width="116" x="394" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-60" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="TaZQv7JUgFFaDRqkGOOD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-17" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="返回处理结果" vertex="1">
+          <mxGeometry height="31" width="120" x="392" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-18" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="结束" vertex="1">
+          <mxGeometry height="37" width="87" x="408.5" y="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-19" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.522;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="TaZQv7JUgFFaDRqkGOOD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-40" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-4" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TaZQv7JUgFFaDRqkGOOD-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="128" y="424" as="sourcePoint" />
+            <mxPoint x="178" y="374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-41" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="TaZQv7JUgFFaDRqkGOOD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-47" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-9" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="TaZQv7JUgFFaDRqkGOOD-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-68" y="525" as="sourcePoint" />
+            <mxPoint x="-18" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-48" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="TaZQv7JUgFFaDRqkGOOD-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-52" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="TaZQv7JUgFFaDRqkGOOD-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="57" y="394" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-54" connectable="0" parent="TaZQv7JUgFFaDRqkGOOD-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="是" vertex="1">
+          <mxGeometry relative="1" x="0.0838" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-53" edge="1" parent="1" source="TaZQv7JUgFFaDRqkGOOD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="TaZQv7JUgFFaDRqkGOOD-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="57" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaZQv7JUgFFaDRqkGOOD-55" connectable="0" parent="TaZQv7JUgFFaDRqkGOOD-53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.1616" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
