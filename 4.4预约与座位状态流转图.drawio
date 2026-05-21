@@ -12,7 +12,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nq35XBhJf9lEH7dV8HiH-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+        <mxCell id="Nq35XBhJf9lEH7dV8HiH-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="151.25" y="-197" as="geometry" />
         </mxCell>
         <mxCell id="Nq35XBhJf9lEH7dV8HiH-12" edge="1" parent="1" source="Nq35XBhJf9lEH7dV8HiH-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="Nq35XBhJf9lEH7dV8HiH-4">
@@ -81,7 +81,7 @@
         <mxCell id="Nq35XBhJf9lEH7dV8HiH-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="已释放/违约" vertex="1">
           <mxGeometry height="57" width="82" x="321" y="-122.5" as="geometry" />
         </mxCell>
-        <mxCell id="Nq35XBhJf9lEH7dV8HiH-8" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+        <mxCell id="Nq35XBhJf9lEH7dV8HiH-8" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="448" y="-71" as="geometry" />
         </mxCell>
         <mxCell id="Nq35XBhJf9lEH7dV8HiH-23" edge="1" parent="1" source="Nq35XBhJf9lEH7dV8HiH-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Nq35XBhJf9lEH7dV8HiH-8">
