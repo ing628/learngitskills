@@ -1,9 +1,237 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="JgNGPUX6Y3JAHtaPczqu">
-    <mxGraphModel>
+    <mxGraphModel dx="1622" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AWTApdy1it3-httnMUtV-31" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;elbow=vertical;" target="AWTApdy1it3-httnMUtV-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="175" />
+              <mxPoint x="110" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-32" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-35" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="175" />
+              <mxPoint x="371" y="175" />
+            </Array>
+            <mxPoint x="560" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-55" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="智能自习室预约管理系统" vertex="1">
+          <mxGeometry height="30" width="140" x="100" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-36" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-37" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-15" y="250" />
+              <mxPoint x="-88" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-38" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-15" y="250" />
+              <mxPoint x="-66" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-39" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-40" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-41" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AWTApdy1it3-httnMUtV-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-15" y="250" />
+              <mxPoint y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-42" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-15" y="250" />
+              <mxPoint x="20" y="250" />
+              <mxPoint x="20" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-2" parent="1" style="whiteSpace=wrap;html=1;" value="学生端功能" vertex="1">
+          <mxGeometry height="20" width="70" x="-50" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-43" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="108" y="250" />
+              <mxPoint x="50" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-44" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="108" y="250" />
+              <mxPoint x="72" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-45" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-46" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-47" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-48" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="108" y="250" />
+              <mxPoint x="160" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-3" parent="1" style="whiteSpace=wrap;html=1;" value="座位终端功能" vertex="1">
+          <mxGeometry height="20" width="80" x="68" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-49" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-50" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-51" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-52" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-53" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-54" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="234" y="250" />
+              <mxPoint x="300" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-4" parent="1" style="whiteSpace=wrap;html=1;" value="管理员端功能" vertex="1">
+          <mxGeometry height="20" width="80" x="194" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-56" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-57" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-58" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-59" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-61" edge="1" parent="1" source="AWTApdy1it3-httnMUtV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWTApdy1it3-httnMUtV-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="371" y="250" />
+              <mxPoint x="418" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-5" parent="1" style="whiteSpace=wrap;html=1;" value="AI服务功能" vertex="1">
+          <mxGeometry height="20" width="70" x="336" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-6" parent="1" style="whiteSpace=wrap;html=1;" value="登录注册" vertex="1">
+          <mxGeometry height="60" width="20" x="-120" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-7" parent="1" style="whiteSpace=wrap;html=1;" value="人脸模板维护" vertex="1">
+          <mxGeometry height="90" width="20" x="-98" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-8" parent="1" style="whiteSpace=wrap;html=1;" value="自习室推荐" vertex="1">
+          <mxGeometry height="80" width="20" x="-76" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-9" parent="1" style="whiteSpace=wrap;html=1;" value="2D座位选座" vertex="1">
+          <mxGeometry height="70" width="20" x="-54" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-10" parent="1" style="whiteSpace=wrap;html=1;" value="预约管理" vertex="1">
+          <mxGeometry height="60" width="20" x="-32" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-11" parent="1" style="whiteSpace=wrap;html=1;" value="学习事项管理" vertex="1">
+          <mxGeometry height="90" width="20" x="-10" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-12" parent="1" style="whiteSpace=wrap;html=1;" value="学习报告查看" vertex="1">
+          <mxGeometry height="90" width="20" x="12" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-13" parent="1" style="whiteSpace=wrap;html=1;" value="终端绑定读取" vertex="1">
+          <mxGeometry height="90" width="20" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-14" parent="1" style="whiteSpace=wrap;html=1;" value="当前预约管理" vertex="1">
+          <mxGeometry height="90" width="20" x="62" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-15" parent="1" style="whiteSpace=wrap;html=1;" value="人脸签到" vertex="1">
+          <mxGeometry height="60" width="20" x="84" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-16" parent="1" style="whiteSpace=wrap;html=1;" value="暂离&lt;div&gt;/&lt;/div&gt;&lt;div&gt;返回&lt;/div&gt;&lt;div&gt;/&lt;/div&gt;&lt;div&gt;签退&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="20" x="106" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-17" parent="1" style="whiteSpace=wrap;html=1;" value="学习事项计时" vertex="1">
+          <mxGeometry height="85" width="20" x="128" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-18" parent="1" style="whiteSpace=wrap;html=1;" value="学习状态检测" vertex="1">
+          <mxGeometry height="90" width="20" x="150" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-19" parent="1" style="whiteSpace=wrap;html=1;" value="自习室管理" vertex="1">
+          <mxGeometry height="80" width="20" x="180" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-20" parent="1" style="whiteSpace=wrap;html=1;" value="座位配置" vertex="1">
+          <mxGeometry height="60" width="20" x="202" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-21" parent="1" style="whiteSpace=wrap;html=1;" value="平面图元素维护" vertex="1">
+          <mxGeometry height="110" width="20" x="224" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-22" parent="1" style="whiteSpace=wrap;html=1;" value="预约规则配置" vertex="1">
+          <mxGeometry height="90" width="20" x="246" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-23" parent="1" style="whiteSpace=wrap;html=1;" value="终端设备绑定" vertex="1">
+          <mxGeometry height="90" width="20" x="268" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-24" parent="1" style="whiteSpace=wrap;html=1;" value="运营数据查看" vertex="1">
+          <mxGeometry height="90" width="20" x="290" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-25" parent="1" style="whiteSpace=wrap;html=1;" value="人脸特征提取" vertex="1">
+          <mxGeometry height="90" width="20" x="320" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-26" parent="1" style="whiteSpace=wrap;html=1;" value="人脸相似度支持" vertex="1">
+          <mxGeometry height="110" width="20" x="342" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-27" parent="1" style="whiteSpace=wrap;html=1;" value="目标检测" vertex="1">
+          <mxGeometry height="60" width="20" x="364" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-28" parent="1" style="whiteSpace=wrap;html=1;" value="人体姿态估计" vertex="1">
+          <mxGeometry height="90" width="20" x="386" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AWTApdy1it3-httnMUtV-29" parent="1" style="whiteSpace=wrap;html=1;" value="学习状态规则融合" vertex="1">
+          <mxGeometry height="125" width="20" x="408" y="280" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
