@@ -1,9 +1,122 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="TSh7HnBfg4CGFzlkoZo8">
-    <mxGraphModel>
+    <mxGraphModel dx="537" dy="1218" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jiVbfukgElMcBdu9zCTB-33" edge="1" parent="1" source="jiVbfukgElMcBdu9zCTB-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="jiVbfukgElMcBdu9zCTB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="开始" vertex="1">
+          <mxGeometry height="25" width="43" x="303" y="-23" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-3" edge="1" parent="1" source="jiVbfukgElMcBdu9zCTB-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="jiVbfukgElMcBdu9zCTB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="用户签到成功&lt;div&gt;进入座位终端工作台&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37" width="109.5" x="269.75" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="读取用户学习事项列表" vertex="1">
+          <mxGeometry height="37" width="123" x="263" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="476" y="174" />
+              <mxPoint x="476" y="218" />
+            </Array>
+            <mxPoint x="526" y="174" as="sourcePoint" />
+            <mxPoint x="326" y="218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="输入临时事项名称&lt;div&gt;作为本次学习标签&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37" width="100" x="434" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-8" edge="1" parent="1" source="jiVbfukgElMcBdu9zCTB-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="jiVbfukgElMcBdu9zCTB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-9" connectable="0" parent="jiVbfukgElMcBdu9zCTB-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.2933" y="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-10" edge="1" parent="1" source="jiVbfukgElMcBdu9zCTB-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jiVbfukgElMcBdu9zCTB-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-11" connectable="0" parent="jiVbfukgElMcBdu9zCTB-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.1525" y="2" as="geometry">
+            <mxPoint x="-18" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-12" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="是否选择&lt;div&gt;已有学习事项？&lt;/div&gt;" vertex="1">
+          <mxGeometry height="51" width="134" x="256.5" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-15" edge="1" parent="1" source="jiVbfukgElMcBdu9zCTB-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="jiVbfukgElMcBdu9zCTB-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="生成计时会话&lt;div&gt;记录事项与开始时间&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37" width="110.5" x="268.25" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="进行学习事项正计时" vertex="1">
+          <mxGeometry height="37" width="116.5" x="265.25" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-19" edge="1" parent="1" source="jiVbfukgElMcBdu9zCTB-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="jiVbfukgElMcBdu9zCTB-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324.5" y="457" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-21" edge="1" parent="1" source="jiVbfukgElMcBdu9zCTB-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="jiVbfukgElMcBdu9zCTB-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-22" connectable="0" parent="jiVbfukgElMcBdu9zCTB-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.2616" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-23" edge="1" parent="1" source="jiVbfukgElMcBdu9zCTB-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="jiVbfukgElMcBdu9zCTB-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-24" connectable="0" parent="jiVbfukgElMcBdu9zCTB-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.0833" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-25" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="用户是否&lt;div&gt;结束计时？&lt;/div&gt;" vertex="1">
+          <mxGeometry height="51" width="105" x="269.75" y="393" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-26" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="结束" vertex="1">
+          <mxGeometry height="25" width="43" x="300.75" y="606.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-35" edge="1" parent="1" source="jiVbfukgElMcBdu9zCTB-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="400" />
+              <mxPoint x="474" y="305" />
+            </Array>
+            <mxPoint x="474" y="491.5" as="sourcePoint" />
+            <mxPoint x="325" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="继续计时&lt;div&gt;保持运行状态&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="105" x="419.75" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-38" edge="1" parent="1" source="jiVbfukgElMcBdu9zCTB-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="jiVbfukgElMcBdu9zCTB-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="记录结束时间&lt;div&gt;计算实际学习时长&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37" width="112" x="266.25" y="474.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-30" edge="1" parent="1" source="jiVbfukgElMcBdu9zCTB-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="jiVbfukgElMcBdu9zCTB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="保存计时记录&lt;div&gt;用于学习报告统计&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37" width="112" x="265.25" y="533.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jiVbfukgElMcBdu9zCTB-39" edge="1" parent="1" source="jiVbfukgElMcBdu9zCTB-37" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="jiVbfukgElMcBdu9zCTB-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
