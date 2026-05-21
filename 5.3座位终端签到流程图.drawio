@@ -1,9 +1,127 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="8lLKHZ3rRKnPcOL9lak8">
-    <mxGraphModel>
+    <mxGraphModel dx="937" dy="1218" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-15" edge="1" parent="1" source="MLzEqE3sRS0SU0LMEjgZ-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="MLzEqE3sRS0SU0LMEjgZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="开始" vertex="1">
+          <mxGeometry height="25" width="43" x="147" y="-261" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-16" edge="1" parent="1" source="MLzEqE3sRS0SU0LMEjgZ-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="MLzEqE3sRS0SU0LMEjgZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="终端登录后读取&lt;div&gt;绑定座位信息&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37" width="100" x="118.5" y="-207" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="查询该座位&lt;br&gt;当前有效预约" vertex="1">
+          <mxGeometry height="37" width="79" x="129" y="-148" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-34" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="385" y="-63" />
+              <mxPoint x="385" y="355" />
+            </Array>
+            <mxPoint x="370" y="-63" as="sourcePoint" />
+            <mxPoint x="174" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="提示当前座位&lt;div&gt;无可签到预约&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37" width="100" x="271" y="-83" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-18" edge="1" parent="1" source="MLzEqE3sRS0SU0LMEjgZ-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="MLzEqE3sRS0SU0LMEjgZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-19" connectable="0" parent="MLzEqE3sRS0SU0LMEjgZ-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.2933" y="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-20" edge="1" parent="1" source="MLzEqE3sRS0SU0LMEjgZ-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="MLzEqE3sRS0SU0LMEjgZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-21" connectable="0" parent="MLzEqE3sRS0SU0LMEjgZ-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.1525" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-5" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="是否存在&lt;div&gt;有效预约？&lt;/div&gt;" vertex="1">
+          <mxGeometry height="51" width="105" x="116" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-22" edge="1" parent="1" source="MLzEqE3sRS0SU0LMEjgZ-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="MLzEqE3sRS0SU0LMEjgZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-6" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.18791951429123846;" value="采集签到人脸图像&lt;br&gt;并上传到后端" vertex="1">
+          <mxGeometry height="36" width="149" x="94" y="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-23" edge="1" parent="1" source="MLzEqE3sRS0SU0LMEjgZ-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="MLzEqE3sRS0SU0LMEjgZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="调用AI服务&lt;br&gt;提取当前人脸特征" vertex="1">
+          <mxGeometry height="37" width="100" x="118.5" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-24" edge="1" parent="1" source="MLzEqE3sRS0SU0LMEjgZ-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="MLzEqE3sRS0SU0LMEjgZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="读取预约用户&lt;div&gt;已存人脸模板&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37" width="84" x="126.5" y="123" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-25" edge="1" parent="1" source="MLzEqE3sRS0SU0LMEjgZ-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="MLzEqE3sRS0SU0LMEjgZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="计算当前特征&lt;div&gt;与模板相似度&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37" width="82" x="127.5" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-26" edge="1" parent="1" source="MLzEqE3sRS0SU0LMEjgZ-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="MLzEqE3sRS0SU0LMEjgZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-27" connectable="0" parent="MLzEqE3sRS0SU0LMEjgZ-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.2616" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-28" edge="1" parent="1" source="MLzEqE3sRS0SU0LMEjgZ-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="MLzEqE3sRS0SU0LMEjgZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-29" connectable="0" parent="MLzEqE3sRS0SU0LMEjgZ-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.0833" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-11" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="相似度是否&lt;div&gt;达到阈值？&lt;/div&gt;" vertex="1">
+          <mxGeometry height="51" width="105" x="116" y="247.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-12" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="结束" vertex="1">
+          <mxGeometry height="25" width="43" x="147" y="367" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-35" edge="1" parent="1" source="MLzEqE3sRS0SU0LMEjgZ-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="318.5" y="355.3333740234375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="返回人脸核验失败&lt;div&gt;提示重新采集&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="105" x="266" y="254.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="更新预约状态为在座&lt;div&gt;写入签到记录&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37" width="112" x="-36" y="254.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-17" edge="1" parent="1" source="MLzEqE3sRS0SU0LMEjgZ-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="MLzEqE3sRS0SU0LMEjgZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-30" edge="1" parent="1" source="MLzEqE3sRS0SU0LMEjgZ-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="MLzEqE3sRS0SU0LMEjgZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MLzEqE3sRS0SU0LMEjgZ-31" edge="1" parent="1" source="MLzEqE3sRS0SU0LMEjgZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="355" />
+            </Array>
+            <mxPoint x="163" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
