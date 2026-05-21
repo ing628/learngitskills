@@ -44,9 +44,6 @@
         <mxCell id="tGdi3pHIQmFbSmgxtYKY-5" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="是否检测到&lt;div&gt;有效人脸&lt;/div&gt;" vertex="1">
           <mxGeometry height="56" width="97.25" x="143.13" y="58" as="geometry" />
         </mxCell>
-        <mxCell id="tGdi3pHIQmFbSmgxtYKY-19" edge="1" parent="1" source="tGdi3pHIQmFbSmgxtYKY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="tGdi3pHIQmFbSmgxtYKY-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="tGdi3pHIQmFbSmgxtYKY-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="返回失败原因&lt;div&gt;提示重新采集&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="108.5" x="305" y="71" as="geometry" />
         </mxCell>
@@ -75,9 +72,6 @@
         <mxCell id="tGdi3pHIQmFbSmgxtYKY-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="融合多次样本特征&lt;div&gt;更新用户人脸模板&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="108.5" x="137.5" y="295" as="geometry" />
         </mxCell>
-        <mxCell id="tGdi3pHIQmFbSmgxtYKY-29" edge="1" parent="1" source="tGdi3pHIQmFbSmgxtYKY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="tGdi3pHIQmFbSmgxtYKY-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="tGdi3pHIQmFbSmgxtYKY-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="继续采集下一帧&lt;div&gt;提升模板稳定性&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="108.5" x="-15" y="227" as="geometry" />
         </mxCell>
@@ -92,6 +86,24 @@
         </mxCell>
         <mxCell id="tGdi3pHIQmFbSmgxtYKY-26" edge="1" parent="1" source="tGdi3pHIQmFbSmgxtYKY-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="tGdi3pHIQmFbSmgxtYKY-12">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3a_VFQu_GDc6J1CPnjoU-1" edge="1" parent="1" source="tGdi3pHIQmFbSmgxtYKY-10" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="39" y="-64" />
+            </Array>
+            <mxPoint x="40" y="-34" as="sourcePoint" />
+            <mxPoint x="187" y="-64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3a_VFQu_GDc6J1CPnjoU-2" edge="1" parent="1" source="tGdi3pHIQmFbSmgxtYKY-6" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="359" y="-63" />
+            </Array>
+            <mxPoint x="257" y="-63" as="sourcePoint" />
+            <mxPoint x="196" y="-63" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
