@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="PEGI1Ielw9zRde44c1g-">
-    <mxGraphModel dx="1153" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="821" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="z-3stG__BQb6WuKsjPy7-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="680" width="846" x="64" y="80" as="geometry" />
+        </mxCell>
         <mxCell id="lSehXV5eR5mi8nAGAwuA-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="前端展示层" vertex="1">
           <mxGeometry height="250" width="180" x="150" y="140" as="geometry" />
         </mxCell>
@@ -15,6 +18,9 @@
         </mxCell>
         <mxCell id="lSehXV5eR5mi8nAGAwuA-6" parent="lSehXV5eR5mi8nAGAwuA-3" style="rounded=1;whiteSpace=wrap;html=1;" value="管理员端&lt;div&gt;空间配置/规则配置/终端绑定&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="155" x="12.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="z-3stG__BQb6WuKsjPy7-2" parent="lSehXV5eR5mi8nAGAwuA-3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="16" x="3" y="2" as="geometry" />
         </mxCell>
         <mxCell id="lSehXV5eR5mi8nAGAwuA-7" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="后端业务层" vertex="1">
           <mxGeometry height="180" width="300" x="350" y="140" as="geometry" />
@@ -75,6 +81,15 @@
         </mxCell>
         <mxCell id="lSehXV5eR5mi8nAGAwuA-30" edge="1" parent="1" source="lSehXV5eR5mi8nAGAwuA-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="lSehXV5eR5mi8nAGAwuA-23">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z-3stG__BQb6WuKsjPy7-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="16" x="354" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="z-3stG__BQb6WuKsjPy7-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="16" x="664" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="z-3stG__BQb6WuKsjPy7-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="11" x="393" y="334" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
