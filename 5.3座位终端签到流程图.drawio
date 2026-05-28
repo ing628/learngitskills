@@ -123,10 +123,10 @@
             <mxPoint x="163" y="183" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oX9Rjs36QG6aH6HQxNC2-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" value="开始" vertex="1">
+        <mxCell id="oX9Rjs36QG6aH6HQxNC2-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeWidth=2;" value="开始" vertex="1">
           <mxGeometry height="24" width="52" x="142.5" y="-260" as="geometry" />
         </mxCell>
-        <mxCell id="oX9Rjs36QG6aH6HQxNC2-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" value="结束" vertex="1">
+        <mxCell id="oX9Rjs36QG6aH6HQxNC2-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeWidth=2;" value="结束" vertex="1">
           <mxGeometry height="24" width="52" x="142.5" y="198" as="geometry" />
         </mxCell>
       </root>
