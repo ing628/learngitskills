@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="17GuW8mz1iPVZJX4uJE9">
+    <mxGraphModel dx="1015" dy="1055" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-14" edge="1" parent="1" source="iQ0gOZNQHMsshiAPBoT9-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="iQ0gOZNQHMsshiAPBoT9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeWidth=2;" value="开始" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-15" edge="1" parent="1" source="iQ0gOZNQHMsshiAPBoT9-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="iQ0gOZNQHMsshiAPBoT9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="接收终端图像&lt;div&gt;与分析模式参数&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-16" edge="1" parent="1" source="iQ0gOZNQHMsshiAPBoT9-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="iQ0gOZNQHMsshiAPBoT9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="图像解码与预处理" vertex="1">
+          <mxGeometry height="40" width="120" x="480" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-17" edge="1" parent="1" source="iQ0gOZNQHMsshiAPBoT9-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="iQ0gOZNQHMsshiAPBoT9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="执行YOLO目标检测&lt;div&gt;识别书本、电脑、手机等&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="465" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-18" edge="1" parent="1" source="iQ0gOZNQHMsshiAPBoT9-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="iQ0gOZNQHMsshiAPBoT9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="执行人体姿态估计&lt;div&gt;分析上半身与桌面姿态&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="480" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-19" edge="1" parent="1" source="iQ0gOZNQHMsshiAPBoT9-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="iQ0gOZNQHMsshiAPBoT9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="执行人脸与眼部分析&lt;div&gt;计算眼部开合与头部姿态&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="470" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-20" edge="1" parent="1" source="iQ0gOZNQHMsshiAPBoT9-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="iQ0gOZNQHMsshiAPBoT9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="汇总检测结果" vertex="1">
+          <mxGeometry height="40" width="120" x="480" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-22" edge="1" parent="1" source="iQ0gOZNQHMsshiAPBoT9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="iQ0gOZNQHMsshiAPBoT9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-23" connectable="0" parent="iQ0gOZNQHMsshiAPBoT9-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.4413" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="是否为网课模式" vertex="1">
+          <mxGeometry height="80" width="120" x="480" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-25" edge="1" parent="1" source="iQ0gOZNQHMsshiAPBoT9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="iQ0gOZNQHMsshiAPBoT9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="执行网课模式规则&lt;div&gt;关注眼部、离屏、朝向等&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="310" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-26" edge="1" parent="1" source="iQ0gOZNQHMsshiAPBoT9-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="745" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="执行自习规则&lt;div&gt;关注姿态、物品、干扰等&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="630" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-27" edge="1" parent="1" source="iQ0gOZNQHMsshiAPBoT9-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="iQ0gOZNQHMsshiAPBoT9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="融合多元特征&lt;div&gt;生成专注状态与风险提示&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="470" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-28" edge="1" parent="1" source="iQ0gOZNQHMsshiAPBoT9-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="iQ0gOZNQHMsshiAPBoT9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="执行网课模式规则&lt;div&gt;关注眼部、离屏、朝向等&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="470" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeWidth=2;" value="结束" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-21" edge="1" parent="1" source="iQ0gOZNQHMsshiAPBoT9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.578;entryY=-0.08;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="iQ0gOZNQHMsshiAPBoT9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ0gOZNQHMsshiAPBoT9-24" connectable="0" parent="iQ0gOZNQHMsshiAPBoT9-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.4679" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
